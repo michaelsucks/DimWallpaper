@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.michaelsucks.dim-wallpaper",
+  "name": "Dim Wallpaper",
+  "version": "1.0.0",
+  "author": "Michael Tran",
+  "license": "MIT",
+  "description": "One click dims the wallpaper behind your windows with a smooth theater-style fade, so the app on screen takes center stage.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Dim Wallpaper",
+    "description": "Dim the wallpaper behind your windows with one click.",
+    "category": "System",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
